@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web-site</title>
+    <link rel="stylesheet" href="p3.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+
+            <div class="nav-bar">
+
+                <div class="nav-logo">
+
+                    <img src="g-logo.png" class="g-logo">
+                    <div class="logo-text">- Tech</div>
+                </div>
+                <div class="nav-items">
+                    <button class="button" href="#Project">Project</button>
+                    <button class="button" href="#Skill">Skill</button>
+                    <button class="button" href="#Contact Me">Contact Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero-left">
+                <div class="leftSection">
+                    Hi , I am <span class="purple"><b>Gautam yadav</b></span> !
+                    <div>& I am a</div>
+                    <span id="element"></span>
+                </div>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <!-- Setup and start animation! -->
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['Web Developer ,', 'Known C , C++ .', 'Web Deginer .'],
+                        typeSpeed: 50,
+                    });
+                </script>
+                <p class="about">Seeking a challenging opportunity to prove
+                    my ability , technical skill and problem solving
+                    capability in my joband emerge and groom
+                    myself as a successful and competent
+                    potential.</p>
+                <button class="btn">Hire me</button>
+            </div>
+            <div class="hero-right">
+                <div class="div-1">
+                    <div>
+                        <img src="gautam-img.jpg" class="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
